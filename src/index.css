@@ -2,72 +2,147 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Syne + DM Sans from Google Fonts ──────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+
 @layer base {
   :root {
-    --background: 0 0% 2%;
-    /* #050505 */
-    --foreground: 0 0% 100%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-
-    --primary: 38 92% 50%;
-    /* #f59e0b */
-    --primary-foreground: 0 0% 98%;
-
-    --secondary: 25 76% 26%;
-    /* #78350f */
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
-
-    --accent: 38 92% 50%;
-    --accent-foreground: 0 0% 9%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 3.9%;
-
-    --radius: 0.5rem;
+    --bg:      #f7f4ef;
+    --bg2:     #eeebe4;
+    --bg3:     #e8e4dc;
+    --black:   #0d0d0d;
+    --black2:  #1a1a1a;
+    --grey:    #6b6b6b;
+    --grey2:   #999;
+    --green:   #5cb832;
+    --green2:  #6fd438;
+    --border:  rgba(13,13,13,.10);
+    --border2: rgba(13,13,13,.18);
   }
-}
 
-@layer base {
   * {
-    @apply border-border;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-background text-foreground font-body antialiased;
+    @apply font-body antialiased;
+    background: var(--bg);
+    color: var(--black);
+    overflow-x: hidden;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     @apply font-heading;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
   }
 }
 
 @layer utilities {
+  /* Keep text-gradient as green now */
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-orange-600;
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(to right, #5cb832, #6fd438);
   }
 
-  .glass {
-    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-lg;
+  /* Eyebrow label pill (small uppercase + green bar) */
+  .gp-eyebrow {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .gp-eyebrow::before {
+    content: '';
+    width: 22px;
+    height: 1.5px;
+    background: var(--green);
+    flex-shrink: 0;
   }
 
-  .glass-card {
-    @apply bg-neutral-900/50 backdrop-blur-md border border-white/10 hover:border-white/20 transition-colors duration-300;
+  /* Card border grid style */
+  .gp-grid-card {
+    border-right: 1px solid var(--border2);
+    border-bottom: 1px solid var(--border2);
+    transition: background 0.3s;
+  }
+  .gp-grid-card:hover {
+    background: var(--bg2);
+  }
+
+  /* Reveal animations */
+  .rv {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.8s cubic-bezier(.16,1,.3,1), transform 0.8s cubic-bezier(.16,1,.3,1);
+  }
+  .rv.in {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
+
+/* ── Marquee animation ───────────────────────────────────── */
+@keyframes marqueeLeft {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marqueeLeft 22s linear infinite;
+  will-change: transform;
+}
+
+/* ── Ticker animations ───────────────────────────────────── */
+@keyframes tickerLeft {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes tickerRight {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+.ticker-left  { animation: tickerLeft  30s linear infinite; }
+.ticker-right { animation: tickerRight 34s linear infinite; }
+
+/* ── WA Float button ─────────────────────────────────────── */
+.wa-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 500;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37,211,102,.35);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.wa-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 28px rgba(37,211,102,.55);
+}
+.wa-float svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}

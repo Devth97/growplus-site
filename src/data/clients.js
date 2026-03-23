@@ -14,43 +14,43 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "/snow-spoon/videos/lassi.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161438/growplus/snow-spoon/videos/lassi.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "/snow-spoon/videos/video_2026-01-26_21-52-16.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161442/growplus/snow-spoon/videos/video_2026-01-26_21-52-16.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 3,
                 "type": "video",
-                "src": "/snow-spoon/videos/video_2026-01-26_21-52-22.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161452/growplus/snow-spoon/videos/video_2026-01-26_21-52-22.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 4,
                 "type": "video",
-                "src": "/snow-spoon/videos/video_2026-01-26_21-52-24.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161456/growplus/snow-spoon/videos/video_2026-01-26_21-52-24.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 5,
                 "type": "video",
-                "src": "/snow-spoon/videos/video_2026-01-26_21-52-27.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161460/growplus/snow-spoon/videos/video_2026-01-26_21-52-27.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 6,
                 "type": "video",
-                "src": "/snow-spoon/videos/video_2026-01-26_21-52-29.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161464/growplus/snow-spoon/videos/video_2026-01-26_21-52-29.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 7,
                 "type": "video",
-                "src": "/snow-spoon/videos/video_2026-01-26_21-52-31.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161467/growplus/snow-spoon/videos/video_2026-01-26_21-52-31.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
@@ -79,7 +79,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "/ss-masala/videos/video_2026-01-20_11-55-51.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161488/growplus/ss-masala/videos/video_2026-01-20_11-55-51.mp4",
                 "thumbnail": "/ss-masala/thumbnails/ssmasala.jpg"
             }
         ]
@@ -96,7 +96,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "/naturya/videos/VID-20260117-WA0016.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161150/growplus/naturya/videos/VID-20260117-WA0016.mp4",
                 "thumbnail": "/naturya/thumbnails/naturya.jpg"
             }
         ]
@@ -113,7 +113,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "/skyline-estates/videos/skylinevd1.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161436/growplus/skyline-estates/videos/skylinevd1.mp4",
                 "thumbnail": "/skyline-estates/thumbnails/skyline.jpg"
             }
         ]
@@ -130,7 +130,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "/royal-residency/videos/royalvd1.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161430/growplus/royal-residency/videos/royalvd1.mp4",
                 "thumbnail": "/royal-residency/thumbnails/royal.jpg"
             }
         ]
@@ -147,7 +147,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "/urban-heights/videos/urbanvd1.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161492/growplus/urban-heights/videos/urbanvd1.mp4",
                 "thumbnail": "/urban-heights/thumbnails/urban.jpg"
             }
         ]
@@ -164,7 +164,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "/golden-ornaments/videos/goldenvd1.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161127/growplus/golden-ornaments/videos/goldenvd1.mp4",
                 "thumbnail": "/golden-ornaments/thumbnails/golden.jpg"
             },
             {
@@ -205,13 +205,13 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "/diamond-dreams/videos/diamondvd1.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161120/growplus/diamond-dreams/videos/diamondvd1.mp4",
                 "thumbnail": "/diamond-dreams/thumbnails/diamond.jpg"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "/diamond-dreams/videos/diamondvd2.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161124/growplus/diamond-dreams/videos/diamondvd2.mp4",
                 "thumbnail": "/diamond-dreams/thumbnails/diamond.jpg"
             },
             {
@@ -252,7 +252,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "/silver-craft/videos/silvervd1.mp4",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161433/growplus/silver-craft/videos/silvervd1.mp4",
                 "thumbnail": "/silver-craft/thumbnails/silver.jpg"
             },
             {
@@ -296,6 +296,200 @@ export const clients = [
                 "type": "poster",
                 "src": "/silver-craft/posters/wmremove-transformed.jpeg",
                 "thumbnail": "/silver-craft/thumbnails/silver.jpg"
+            }
+        ]
+    },
+    {
+        "id": "cream-city",
+        "title": "Cream City",
+        "sector": "food-beverage",
+        "category": "Ice Cream & Desserts",
+        "description": "Premium ice creams, thick shakes, and delightful desserts.",
+        "location": "Karnataka",
+        "thumbnail": "/Cream city/thumbnails/thumbnail.png",
+        "content": [
+            {
+                "id": 1,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161003/growplus/Cream%20city/videos/video_2026-03-13_11-42-46.mp4",
+                "thumbnail": "/Cream city/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 2,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161037/growplus/Cream%20city/videos/video_2026-03-13_11-42-48.mp4",
+                "thumbnail": "/Cream city/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 3,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161102/growplus/Cream%20city/videos/video_2026-03-13_11-42-50.mp4",
+                "thumbnail": "/Cream city/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 4,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161117/growplus/Cream%20city/videos/video_2026-03-13_11-45-07.mp4",
+                "thumbnail": "/Cream city/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 5,
+                "type": "poster",
+                "src": "/Cream city/posters/photo_2026-03-13_12-09-10.jpg",
+                "thumbnail": "/Cream city/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 6,
+                "type": "poster",
+                "src": "/Cream city/posters/photo_2026-03-13_12-09-43.jpg",
+                "thumbnail": "/Cream city/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 7,
+                "type": "poster",
+                "src": "/Cream city/posters/photo_2026-03-13_12-10-31.jpg",
+                "thumbnail": "/Cream city/thumbnails/thumbnail.png"
+            }
+        ]
+    },
+    {
+        "id": "muliya-jewllers",
+        "title": "Muliya Jewllers",
+        "sector": "jewellery",
+        "category": "Traditional Gold & Diamond",
+        "description": "Legacy jewelry brand with exquisite craftsmanship.",
+        "location": "Karnataka",
+        "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png",
+        "content": [
+            {
+                "id": 1,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161137/growplus/Muliya%20Jewllers/videos/778cb2c3-b518-4cb1-86fd-4469b6c520ac%20%281%29.mp4",
+                "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 2,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161144/growplus/Muliya%20Jewllers/videos/Luxury_Jewelry_Showcase_Video_Generation.mp4",
+                "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 3,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161141/growplus/Muliya%20Jewllers/videos/freepik_create-a-luxury-jewelry-product-video-starting-wit_kling_720p_9-16_24fps_29317.mp4",
+                "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 4,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161145/growplus/Muliya%20Jewllers/videos/video_2026-03-13_11-03-27.mp4",
+                "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 5,
+                "type": "poster",
+                "src": "/Muliya Jewllers/posters/ChatGPT Image Feb 12, 2026, 09_26_18 AM.png",
+                "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 6,
+                "type": "poster",
+                "src": "/Muliya Jewllers/posters/bangles2.png",
+                "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 7,
+                "type": "poster",
+                "src": "/Muliya Jewllers/posters/freepik__enhance__99009.png",
+                "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 8,
+                "type": "poster",
+                "src": "/Muliya Jewllers/posters/photo_2026-03-13_10-47-29.jpg",
+                "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 9,
+                "type": "poster",
+                "src": "/Muliya Jewllers/posters/photo_2026-03-13_10-49-15.jpg",
+                "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
+            }
+        ]
+    },
+    {
+        "id": "nishma-delights-cafe",
+        "title": "Nishma Delights Cafe",
+        "sector": "food-beverage",
+        "category": "Cafe & Bakery",
+        "description": "A cozy cafe serving freshly baked items, coffee, and quick bites.",
+        "location": "Karnataka",
+        "thumbnail": "/Nishma Delights Cafe/thumbnails/thumbnail.png",
+        "content": [
+            {
+                "id": 1,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161158/growplus/Nishma%20Delights%20Cafe/videos/video_2026-03-13_11-32-40.mp4",
+                "thumbnail": "/Nishma Delights Cafe/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 2,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161189/growplus/Nishma%20Delights%20Cafe/videos/video_2026-03-13_11-32-42.mp4",
+                "thumbnail": "/Nishma Delights Cafe/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 3,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161219/growplus/Nishma%20Delights%20Cafe/videos/video_2026-03-13_11-32-51.mp4",
+                "thumbnail": "/Nishma Delights Cafe/thumbnails/thumbnail.png"
+            },
+            {
+                "id": 4,
+                "type": "video",
+                "src": "/Nishma Delights Cafe/videos/video_2026-03-13_11-32-53.mp4",
+                "thumbnail": "/Nishma Delights Cafe/thumbnails/thumbnail.png"
+            }
+        ]
+    },
+    {
+        "id": "popular-nutritions",
+        "title": "Popular Nutritions",
+        "sector": "food-beverage",
+        "category": "Health & Supplements",
+        "description": "High-quality nutrition and wellness supplements.",
+        "location": "Karnataka",
+        "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg",
+        "content": [
+            {
+                "id": 1,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161331/growplus/Popular%20Nutritions/videos/Popular%20Masala%20chips%20e.mp4",
+                "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
+            },
+            {
+                "id": 2,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161306/growplus/Popular%20Nutritions/videos/Popular%20chips%203%20flavour%20k.mp4",
+                "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
+            },
+            {
+                "id": 3,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161363/growplus/Popular%20Nutritions/videos/Popular%20tomato%20chips%20e.mp4",
+                "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
+            },
+            {
+                "id": 4,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161395/growplus/Popular%20Nutritions/videos/video_2026-03-13_09-52-00.mp4",
+                "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
+            },
+            {
+                "id": 5,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161427/growplus/Popular%20Nutritions/videos/video_2026-03-13_10-31-53.mp4",
+                "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
             }
         ]
     }

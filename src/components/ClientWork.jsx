@@ -1,20 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion"
-import { X, Play, Pause, Download, Image } from "lucide-react"
+import { X, Play, Download, Image as ImageIcon } from "lucide-react"
 import { useState, useRef } from "react"
 import { sectors } from "@/data/clients"
-
-function getSectorColor(sector) {
-    switch (sector) {
-        case "food-beverage":
-            return "text-orange-400"
-        case "real-estate":
-            return "text-blue-400"
-        case "jewellery":
-            return "text-yellow-400"
-        default:
-            return "text-neutral-400"
-    }
-}
 
 // Video Card Component
 function VideoCard({ content, isPlaying, onPlay, onPause }) {
@@ -34,14 +21,14 @@ function VideoCard({ content, isPlaying, onPlay, onPause }) {
         <div className="relative">
             {/* Type Badge */}
             <div className="absolute top-3 right-3 z-10">
-                <span className="px-2 py-1 rounded-md text-xs font-medium bg-black/70 text-white border border-white/20 flex items-center gap-1">
+                <span className="px-2 py-1 rounded-sm text-[0.6rem] font-heading font-bold tracking-[0.2em] bg-white text-gp-black shadow-sm flex items-center gap-1 uppercase">
                     <Play className="w-3 h-3" />
-                    VIDEO
+                    Video
                 </span>
             </div>
 
             <div
-                className="relative aspect-[9/16] bg-neutral-800 rounded-xl overflow-hidden group border border-white/5 cursor-pointer"
+                className="relative aspect-[9/16] bg-gp-bg3 rounded-none overflow-hidden group border border-border2 cursor-pointer transition-all hover:border-gp-black"
                 onClick={togglePlay}
             >
                 {!isPlaying && (
@@ -49,11 +36,11 @@ function VideoCard({ content, isPlaying, onPlay, onPause }) {
                         <img
                             src={content.thumbnail}
                             alt="Video thumbnail"
-                            className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-60 transition-opacity duration-300"
+                            className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                         />
-                        <div className="absolute inset-0 flex items-center justify-center">
-                            <div className="w-16 h-16 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                <Play className="w-8 h-8 text-white fill-white ml-1" />
+                        <div className="absolute inset-0 flex items-center justify-center bg-black/10 group-hover:bg-black/20 transition-colors">
+                            <div className="w-14 h-14 rounded-full bg-white/90 shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                <Play className="w-6 h-6 text-gp-black fill-gp-black ml-1" />
                             </div>
                         </div>
                     </>
@@ -82,23 +69,25 @@ function PosterCard({ content }) {
             <div className="relative">
                 {/* Type Badge */}
                 <div className="absolute top-3 right-3 z-10">
-                    <span className="px-2 py-1 rounded-md text-xs font-medium bg-black/70 text-white border border-white/20 flex items-center gap-1">
-                        <Image className="w-3 h-3" />
-                        POSTER
+                    <span className="px-2 py-1 rounded-sm text-[0.6rem] font-heading font-bold tracking-[0.2em] bg-white text-gp-black shadow-sm flex items-center gap-1 uppercase">
+                        <ImageIcon className="w-3 h-3" />
+                        Poster
                     </span>
                 </div>
 
                 <div
-                    className="relative bg-neutral-800 rounded-xl overflow-hidden group border border-white/5 cursor-pointer hover:border-white/20 transition-colors"
+                    className="relative bg-gp-bg3 rounded-none overflow-hidden group border border-border2 cursor-pointer hover:border-gp-black transition-colors"
                     onClick={() => setIsExpanded(true)}
                 >
                     <img
                         src={content.src}
                         alt="Poster"
-                        className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+                        className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700"
                     />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100">
-                        <Download className="w-8 h-8 text-white" />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100">
+                        <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg">
+                            <Download className="w-5 h-5 text-gp-black" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,26 +99,26 @@ function PosterCard({ content }) {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        className="fixed inset-0 z-[60] flex items-center justify-center bg-black/95 backdrop-blur-md p-4"
+                        className="fixed inset-0 z-[60] flex items-center justify-center bg-gp-black/95 p-4"
                         onClick={() => setIsExpanded(false)}
                     >
                         <motion.div
-                            initial={{ scale: 0.9 }}
+                            initial={{ scale: 0.95 }}
                             animate={{ scale: 1 }}
-                            exit={{ scale: 0.9 }}
+                            exit={{ scale: 0.95 }}
                             className="relative max-w-5xl max-h-[90vh]"
                             onClick={(e) => e.stopPropagation()}
                         >
                             <button
                                 onClick={() => setIsExpanded(false)}
-                                className="absolute -top-12 right-0 p-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                                className="absolute -top-12 right-0 p-2 text-white hover:text-primary transition-colors"
                             >
-                                <X className="w-6 h-6" />
+                                <X className="w-8 h-8" />
                             </button>
                             <img
                                 src={content.src}
                                 alt="Poster full view"
-                                className="max-w-full max-h-[85vh] object-contain rounded-lg"
+                                className="max-w-full max-h-[85vh] object-contain shadow-2xl"
                             />
                         </motion.div>
                     </motion.div>
@@ -156,43 +145,46 @@ export default function ClientWork({ client, isOpen, onClose }) {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-md p-4 md:p-8"
+                className="fixed inset-0 z-50 flex items-center justify-center bg-gp-black/60 backdrop-blur-sm p-4 md:p-8"
                 onClick={onClose}
             >
                 <motion.div
-                    initial={{ scale: 0.95, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    exit={{ scale: 0.95, opacity: 0 }}
-                    className="relative w-full max-w-6xl max-h-[90vh] overflow-y-auto bg-[#0a0a0a] border border-white/10 rounded-2xl shadow-2xl overscroll-contain touch-pan-y"
+                    initial={{ scale: 0.98, opacity: 0, y: 20 }}
+                    animate={{ scale: 1, opacity: 1, y: 0 }}
+                    exit={{ scale: 0.98, opacity: 0, y: 20 }}
+                    transition={{ duration: 0.4, ease: "easeOut" }}
+                    className="relative w-full max-w-6xl max-h-[90vh] overflow-y-auto bg-gp-bg border border-border2 shadow-2xl overscroll-contain touch-pan-y"
                     onClick={(e) => e.stopPropagation()}
                 >
                     {/* Close Button */}
                     <button
                         onClick={onClose}
-                        className="absolute top-4 right-4 z-50 p-2 rounded-full bg-black/50 text-white hover:bg-white/20 transition-colors"
+                        className="absolute top-6 right-6 z-50 p-2 text-gp-grey hover:text-gp-black transition-colors"
                     >
-                        <X className="w-6 h-6" />
+                        <X className="w-7 h-7" />
                     </button>
 
                     {/* Header */}
-                    <div className="p-8 md:p-12 border-b border-white/5">
-                        <div className="flex items-center gap-3 mb-4">
-                            <span className={`text-sm font-medium tracking-wider uppercase ${getSectorColor(client.sector)}`}>
+                    <div className="p-8 md:p-14 border-b border-border2 bg-gp-bg2">
+                        <div className="flex items-center gap-3 mb-5">
+                            <span className="font-heading text-[0.66rem] font-bold tracking-[0.2em] uppercase text-gp-black">
                                 {sectors[client.sector]?.label || client.sector}
                             </span>
-                            <span className="text-white/30">•</span>
-                            <span className="text-primary text-sm font-medium tracking-wider uppercase">{client.category}</span>
+                            <span className="text-border2">—</span>
+                            <span className="font-heading text-[0.66rem] font-bold tracking-[0.2em] uppercase text-primary text-gradient">
+                                {client.category}
+                            </span>
                         </div>
-                        <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">{client.title}</h2>
-                        <p className="text-xl text-neutral-400 max-w-2xl">{client.description}</p>
-                        {client.location && <p className="text-sm text-neutral-500 mt-2">{client.location}</p>}
+                        <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-gp-black tracking-tight mb-4">{client.title}</h2>
+                        <p className="text-base text-gp-grey leading-relaxed max-w-3xl">{client.description}</p>
+                        {client.location && <p className="text-[0.8rem] font-bold font-heading uppercase tracking-[0.1em] text-gp-grey mt-6">{client.location}</p>}
                     </div>
 
                     {/* Content Gallery */}
-                    <div className="p-8 md:p-12 bg-neutral-900/20">
-                        <div className="flex items-center justify-between mb-6">
-                            <h3 className="text-2xl font-bold text-white">Content Gallery</h3>
-                            <span className="text-sm text-neutral-500">{client.content?.length || 0} items</span>
+                    <div className="p-8 md:p-14 bg-gp-bg">
+                        <div className="flex items-center justify-between mb-8">
+                            <h3 className="font-heading text-2xl font-extrabold text-gp-black tracking-tight">Content Gallery</h3>
+                            <span className="font-heading text-[0.7rem] font-bold uppercase tracking-[0.15em] text-gp-grey">{client.content?.length || 0} items</span>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {client.content?.map((item) => {

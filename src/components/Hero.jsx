@@ -1,124 +1,98 @@
 import { motion, AnimatePresence } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import { MessageCircle, ArrowDown } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { useState, useEffect } from "react"
 
-const rotatingSectors = [
-    "Food & Beverage",
-    "Real Estate",
-    "Jewellery"
-]
-
-export default function Hero({ title, subtitle, description }) {
-    const WHATSAPP_URL = "https://wa.me/919901542387"
-    const [currentSectorIndex, setCurrentSectorIndex] = useState(0)
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentSectorIndex((prev) => (prev + 1) % rotatingSectors.length)
-        }, 3000)
-        return () => clearInterval(interval)
-    }, [])
-
+export default function Hero() {
     return (
-        <section className="relative h-screen w-full overflow-hidden flex items-center pt-44 md:pt-52">
-            {/* Background Video */}
-            <div className="absolute inset-0 z-0">
-                <video
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    className="h-full w-full object-cover opacity-60"
+        <section id="home" className="relative h-screen min-h-[680px] w-full overflow-hidden flex bg-gp-bg">
+            
+            {/* Left Rail */}
+            <div className="hidden lg:flex w-[110px] min-w-[110px] border-r border-border2 flex-col items-center justify-between pb-12 pt-36 z-20 bg-gp-bg">
+                <div 
+                    className="font-heading text-[0.68rem] font-bold tracking-[0.28em] text-primary uppercase"
+                    style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
                 >
-                    <source src="/hero.mp4" type="video/mp4" />
-                </video>
-                {/* Soft bottom gradient to blend into next section */}
-                <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#050505] to-transparent" />
+                    01 / 01
+                </div>
+                <div className="w-[1px] h-[60px] bg-border2 my-auto" />
             </div>
 
-            {/* Content */}
-            <div className="container relative z-10 px-6 mx-auto max-w-7xl">
-                <div className="max-w-4xl">
-                    <motion.h1
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.2 }}
-                        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight tracking-tight text-white"
+            {/* Main Hero Slider Area */}
+            <div className="flex-1 relative overflow-hidden flex flex-col justify-end px-8 md:px-20 pb-20 md:pb-24 z-10">
+                
+                {/* Background Video */}
+                <div className="absolute inset-0 z-[-1] overflow-hidden bg-gp-bg2">
+                    <motion.div 
+                        initial={{ scale: 1.1 }}
+                        animate={{ scale: 1.04 }}
+                        transition={{ duration: 8, ease: "easeOut" }}
+                        className="w-full h-full"
                     >
-                        {title || "Premium content & websites for brands that demand excellence"}
-                    </motion.h1>
+                        <video
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            className="h-full w-full object-cover"
+                        >
+                            <source src="https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161133/growplus/hero.mp4" type="video/mp4" />
+                        </video>
+                    </motion.div>
+                    {/* Light Fade Gradient overlay on video */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#f7f4ef] via-white/80 to-white/10 content-[''] pointer-events-none" />
+                </div>
 
+                {/* Content */}
+                <div className="relative z-10 max-w-[780px]">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.4 }}
-                        className="mt-6"
+                        transition={{ duration: 0.8, delay: 0.2 }}
+                        className="gp-eyebrow"
                     >
-                        <p className="text-xl text-white/80 md:text-2xl font-light max-w-3xl">
-                            {subtitle || (
-                                <>
-                                    Crafting cinematic visuals and digital experiences across{" "}
-                                    <span className="relative inline-block">
-                                        <AnimatePresence mode="wait">
-                                            <motion.span
-                                                key={currentSectorIndex}
-                                                initial={{ opacity: 0, y: 20 }}
-                                                animate={{ opacity: 1, y: 0 }}
-                                                exit={{ opacity: 0, y: -20 }}
-                                                transition={{ duration: 0.5 }}
-                                                className="text-gradient font-semibold"
-                                            >
-                                                {rotatingSectors[currentSectorIndex]}
-                                            </motion.span>
-                                        </AnimatePresence>
-                                    </span>
-                                </>
-                            )}
-                        </p>
+                        AI Automation Agency
                     </motion.div>
+
+                    <motion.h1
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.4 }}
+                        className="font-heading text-5xl sm:text-7xl md:text-[6.4rem] font-extrabold leading-[0.96] tracking-tight text-gp-black mb-7"
+                    >
+                        AI<br />
+                        <span style={{ WebkitTextStroke: '1.5px var(--black)', color: 'transparent' }}>Automation</span><br />
+                        <span className="text-primary">&amp; Websites.</span>
+                    </motion.h1>
 
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.5 }}
-                        className="mt-4 text-lg text-white/60 max-w-2xl"
+                        transition={{ duration: 0.8, delay: 0.6 }}
+                        className="text-base md:text-lg text-gp-grey leading-relaxed max-w-[460px] mb-10"
                     >
-                        {description || "Cinematic videos and striking posters for F&B, Real Estate, and Jewellery brands."}
+                        Growplus is an AI automation agency that transforms modern businesses by integrating artificial intelligence into daily workflows, alongside building premium digital experiences that scale.
                     </motion.p>
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.6 }}
-                        className="mt-10 flex flex-col gap-4 sm:flex-row"
+                        transition={{ duration: 0.8, delay: 0.8 }}
                     >
-                        <Button
-                            variant="cta"
-                            size="lg"
-                            className="group text-lg h-14 px-8 rounded-full"
-                            asChild
-                        >
-                            <a href="#work">
-                                View Our Work
-                                <ArrowDown className="ml-2 h-5 w-5 transition-transform group-hover:translate-y-1" />
-                            </a>
-                        </Button>
-
-                        <Button
-                            variant="outline"
-                            size="lg"
-                            className="text-lg h-14 px-8 rounded-full border-white/20 bg-white/5 text-white hover:bg-white/10 hover:border-white/40"
-                            asChild
-                        >
-                            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                                <MessageCircle className="mr-2 h-5 w-5" />
-                                Chat on WhatsApp
-                            </a>
-                        </Button>
+                        <a href="#work" className="inline-flex items-center gap-4 font-heading text-xs font-bold tracking-[0.15em] uppercase text-gp-black hover:gap-6 transition-all group">
+                            View Our Work
+                            <div className="w-12 h-12 border-[1.5px] border-border2 rounded-full flex items-center justify-center text-lg group-hover:bg-primary group-hover:border-primary group-hover:text-white transition-all text-gp-black">
+                                <ArrowRight className="w-5 h-5" />
+                            </div>
+                        </a>
                     </motion.div>
                 </div>
             </div>
+
+            {/* Right progress indicator */}
+            <div className="hidden lg:flex w-[72px] min-w-[72px] border-l border-border2 flex-col items-center justify-center z-20 bg-gp-bg">
+                <div className="w-1.5 h-8 bg-primary rounded-sm transition-all duration-300" />
+            </div>
+
         </section>
     )
 }

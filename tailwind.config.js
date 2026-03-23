@@ -7,41 +7,47 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                heading: ['Outfit', 'sans-serif'],
-                body: ['Inter', 'sans-serif'],
+                heading: ['Syne', 'sans-serif'],
+                body: ['DM Sans', 'sans-serif'],
             },
             colors: {
-                background: '#050505',
-                foreground: '#ffffff',
+                background: '#f7f4ef',
+                foreground: '#0d0d0d',
                 primary: {
-                    DEFAULT: '#f59e0b', // Warm Amber
-                    foreground: '#000000',
+                    DEFAULT: '#5cb832',
+                    foreground: '#ffffff',
                 },
                 secondary: {
-                    DEFAULT: '#78350f', // Coffee Brown
-                    foreground: '#ffffff',
+                    DEFAULT: '#1a1a1a',
+                    foreground: '#f7f4ef',
                 },
                 accent: {
-                    DEFAULT: '#f59e0b',
-                    foreground: '#000000',
-                },
-                card: {
-                    DEFAULT: 'rgba(255, 255, 255, 0.03)',
+                    DEFAULT: '#5cb832',
                     foreground: '#ffffff',
                 },
-                border: 'rgba(255, 255, 255, 0.1)',
-                muted: {
-                    DEFAULT: 'rgba(255, 255, 255, 0.4)',
-                    foreground: '#a3a3a3',
+                card: {
+                    DEFAULT: '#eeebe4',
+                    foreground: '#0d0d0d',
                 },
-                sector: {
-                    fb: '#f59e0b',
-                    realestate: '#3b82f6',
-                    jewellery: '#fbbf24',
+                border: 'rgba(13,13,13,0.12)',
+                muted: {
+                    DEFAULT: '#e8e4dc',
+                    foreground: '#6b6b6b',
+                },
+                gp: {
+                    bg:    '#f7f4ef',
+                    bg2:   '#eeebe4',
+                    bg3:   '#e8e4dc',
+                    black: '#0d0d0d',
+                    black2:'#1a1a1a',
+                    grey:  '#6b6b6b',
+                    grey2: '#999999',
+                    green: '#5cb832',
+                    green2:'#6fd438',
                 }
             },
             backgroundImage: {
-                'gradient-cta': 'linear-gradient(to right, #f59e0b, #ea580c)', // Amber -> Orange
+                'gradient-cta': 'linear-gradient(to right, #5cb832, #6fd438)',
             },
         },
     },

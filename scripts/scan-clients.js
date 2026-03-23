@@ -90,6 +90,42 @@ const CLIENTS_CONFIG = [
     description: "Exquisite silver craftsmanship with traditional and modern designs.",
     location: "Udupi, Karnataka",
     folder: "silver-craft"
+  },
+  {
+    id: "cream-city",
+    title: "Cream City",
+    sector: "food-beverage",
+    category: "Ice Cream & Desserts",
+    description: "Premium ice creams, thick shakes, and delightful desserts.",
+    location: "Karnataka",
+    folder: "Cream city"
+  },
+  {
+    id: "muliya-jewllers",
+    title: "Muliya Jewllers",
+    sector: "jewellery",
+    category: "Traditional Gold & Diamond",
+    description: "Legacy jewelry brand with exquisite craftsmanship.",
+    location: "Karnataka",
+    folder: "Muliya Jewllers"
+  },
+  {
+    id: "nishma-delights-cafe",
+    title: "Nishma Delights Cafe",
+    sector: "food-beverage",
+    category: "Cafe & Bakery",
+    description: "A cozy cafe serving freshly baked items, coffee, and quick bites.",
+    location: "Karnataka",
+    folder: "Nishma Delights Cafe"
+  },
+  {
+    id: "popular-nutritions",
+    title: "Popular Nutritions",
+    sector: "food-beverage",
+    category: "Health & Supplements",
+    description: "High-quality nutrition and wellness supplements.",
+    location: "Karnataka",
+    folder: "Popular Nutritions"
   }
 ];
 
@@ -115,14 +151,14 @@ function getFilesFromDir(dirPath, basePath = dirPath) {
   if (!fs.existsSync(dirPath)) {
     return [];
   }
-  
+
   const files = [];
   const items = fs.readdirSync(dirPath);
-  
+
   for (const item of items) {
     const fullPath = path.join(dirPath, item);
     const stat = fs.statSync(fullPath);
-    
+
     if (stat.isDirectory()) {
       // Recursively scan subdirectories
       files.push(...getFilesFromDir(fullPath, basePath));
@@ -136,13 +172,13 @@ function getFilesFromDir(dirPath, basePath = dirPath) {
       }
     }
   }
-  
+
   return files.sort();
 }
 
 function scanClient(clientConfig) {
   const clientPath = path.join(PUBLIC_DIR, clientConfig.folder);
-  
+
   if (!fs.existsSync(clientPath)) {
     console.log(`⚠️  Folder not found: ${clientConfig.folder}`);
     return null;
@@ -157,8 +193,8 @@ function scanClient(clientConfig) {
   const thumbnails = getFilesFromDir(thumbnailsPath);
 
   // Find main thumbnail for the client card
-  const mainThumbnail = thumbnails.find(f => 
-    f.toLowerCase().includes('main') || 
+  const mainThumbnail = thumbnails.find(f =>
+    f.toLowerCase().includes('main') ||
     f.toLowerCase().includes('thumbnail') ||
     f.toLowerCase().includes('thumb-main')
   ) || thumbnails[0] || '';
@@ -170,7 +206,7 @@ function scanClient(clientConfig) {
   videos.forEach((video, index) => {
     const videoName = path.basename(video, path.extname(video));
     // Find matching thumbnail or use a generic one
-    const videoThumbnail = thumbnails.find(f => 
+    const videoThumbnail = thumbnails.find(f =>
       f.toLowerCase().includes(videoName.toLowerCase()) ||
       f.toLowerCase().includes(`video-thumb-${index + 1}`) ||
       f.toLowerCase().includes(`video${index + 1}`)
@@ -179,7 +215,7 @@ function scanClient(clientConfig) {
     // Convert Windows path separators to forward slashes for URLs
     const videoPath = video.replace(/\\/g, '/');
     const thumbPath = videoThumbnail ? videoThumbnail.replace(/\\/g, '/') : '';
-    
+
     content.push({
       id: idCounter++,
       type: "video",
@@ -213,7 +249,7 @@ function scanClient(clientConfig) {
 
   // Convert Windows path separators to forward slashes for URLs
   const mainThumbPath = mainThumbnail ? mainThumbnail.replace(/\\/g, '/') : '';
-  
+
   return {
     id: clientConfig.id,
     title: clientConfig.title,
@@ -230,7 +266,7 @@ function generateClientsFile() {
   console.log('🔍 Scanning client folders...\n');
 
   const clients = [];
-  
+
   CLIENTS_CONFIG.forEach(config => {
     const client = scanClient(config);
     if (client) {
@@ -251,7 +287,7 @@ export const sectors = ${JSON.stringify(sectors, null, 4)};
 
   const outputPath = path.join(process.cwd(), 'src', 'data', 'clients.js');
   fs.writeFileSync(outputPath, output);
-  
+
   console.log(`\n✨ Successfully updated ${outputPath}`);
   console.log(`📊 Total clients: ${clients.length}`);
   console.log(`📁 Total content items: ${clients.reduce((acc, c) => acc + c.content.length, 0)}`);

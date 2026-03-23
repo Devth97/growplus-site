@@ -1,26 +1,29 @@
 export default function Footer() {
-    const WHATSAPP_URL = "https://wa.me/919901542387"
-
     return (
-        <footer className="bg-black py-12 border-t border-white/10">
-            <div className="container px-6 mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
-
-                <div>
-                    <a href="#" className="flex items-center gap-2 mb-2">
-                        <img src="/logo.jpg" alt="Growplus" className="h-10 w-10 object-contain rounded-full bg-white/10 p-1" />
+        <footer className="bg-gp-bg border-t border-border2 py-8 md:py-12">
+            <div className="container px-6 mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center gap-6">
+                <div className="flex items-center gap-2">
+                    <img src="/logo.jpg" alt="Growplus" className="h-[26px] w-auto object-contain rounded-full shadow-sm" />
+                    <span className="font-heading text-lg font-bold text-gp-black tracking-wide">
+                        GROW<span className="text-primary">+</span>
+                    </span>
+                </div>
+                
+                <div className="flex flex-wrap justify-center gap-8 md:gap-12">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="font-heading text-[0.66rem] font-bold tracking-[0.2em] uppercase text-gp-grey hover:text-primary transition-colors">
+                        Instagram
                     </a>
-                    <p className="text-sm text-neutral-500 mt-2">
-                        © {new Date().getFullYear()} Growplus Creative Agency.
-                    </p>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="font-heading text-[0.66rem] font-bold tracking-[0.2em] uppercase text-gp-grey hover:text-primary transition-colors">
+                        LinkedIn
+                    </a>
+                    <a href="https://behance.net" target="_blank" rel="noopener noreferrer" className="font-heading text-[0.66rem] font-bold tracking-[0.2em] uppercase text-gp-grey hover:text-primary transition-colors">
+                        Behance
+                    </a>
                 </div>
-
-                <div className="flex gap-8 text-sm text-neutral-400">
-                    <a href="#work" className="hover:text-white transition-colors">Work</a>
-                    <a href="#services" className="hover:text-white transition-colors">Services</a>
-                    <a href="#process" className="hover:text-white transition-colors">Process</a>
-                    <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Contact</a>
+                
+                <div className="font-body text-[0.8rem] text-gp-grey2 text-center md:text-right">
+                    &copy; 2024 Growplus.site<br/>All rights reserved.
                 </div>
-
             </div>
         </footer>
     )
