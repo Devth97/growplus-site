@@ -5,7 +5,7 @@ export const clients = [
     {
         "id": "paavani",
         "title": "Paavani Silks",
-        "sector": "jewellery",
+        "sector": "clothing",
         "category": "Silk & Fashion",
         "description": "Premium silk and fashion collections.",
         "location": "Karnataka",
@@ -132,85 +132,85 @@ export const clients = [
         "category": "Contemporary Jewelry",
         "description": "Modern jewelry designs with exquisite craftsmanship.",
         "location": "Karnataka",
-        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png",
+        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg",
         "content": [
             {
                 "id": 1,
                 "type": "video",
                 "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776850779/growplus/KOTHARRI%20JEWELZ/videos/VN20260414_214413.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 2,
                 "type": "video",
                 "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851063/growplus/KOTHARRI%20JEWELZ/videos/video_260414_133005.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 3,
                 "type": "video",
                 "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853077/growplus/KOTHARRI%20JEWELZ/videos/VN20260413_223415.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 4,
                 "type": "video",
                 "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853088/growplus/KOTHARRI%20JEWELZ/videos/VN20260414_220613.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 5,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 4,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850512/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224446_730.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 5,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850523/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224448_830.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 6,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850535/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224450_915.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 7,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850542/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224452_789.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 8,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850553/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224455_904.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 9,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850561/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224456_578.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 10,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850572/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224459_329.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 11,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850580/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224500_936.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
             }
         ]
     },
@@ -739,5 +739,10 @@ export const sectors = {
         "label": "Jewellery",
         "color": "#fbbf24",
         "twColor": "sector-jewellery"
+    },
+    "clothing": {
+        "label": "Clothing",
+        "color": "#ec4899",
+        "twColor": "sector-clothing"
     }
 };
