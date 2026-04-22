@@ -6,31 +6,37 @@ const services = [
         icon: Bot,
         title: "AI Automation",
         description: "Custom autonomous AI agents and LLM-powered workflows that eliminate manual tasks and dramatically scale your operational efficiency.",
+        link: "/about"
     },
     {
         icon: Video,
         title: "Content Creation",
         description: "Videos, Reels, and Short-form content designed to stop the scroll and drive engagement across all platforms.",
+        link: "/food-and-beverage-marketing"
     },
     {
         icon: Globe,
         title: "Website Development",
         description: "Custom websites for modern brands integrating seamless UI with robust backend architectures that convert visitors.",
+        link: "/real-estate-marketing"
     },
     {
         icon: Palette,
         title: "Brand Storytelling",
         description: "Narrative-driven campaigns that highlight your brand's unique story, values, and craftsmanship.",
+        link: "/jewellery-branding"
     },
     {
         icon: Calendar,
         title: "Social Media Management",
         description: "End-to-end AI-assisted content planning, creation, and execution. We handle everything while you focus on business.",
+        link: "/food-and-beverage-marketing"
     },
     {
         icon: Camera,
         title: "Photography & Videography",
         description: "Professional shoots for products, properties, jewelry, and food. Cinematic quality that elevates your brand.",
+        link: "/jewellery-branding"
     }
 ]
 
@@ -60,7 +66,7 @@ export default function Services() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.6, delay: index * 0.1 }}
-                            className="bg-white p-10 md:p-12 relative overflow-hidden group rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-500 ease-out border border-white/50"
+                            className="p-10 md:p-12 relative overflow-hidden group rounded-2xl gp-glow-card"
                         >
                             {/* Hover accent top border */}
                             <div className="absolute top-0 left-0 right-full h-[3px] bg-primary transition-all duration-700 ease-[cubic-bezier(0.2,1,0.2,1)] group-hover:right-0 z-10" />
@@ -74,7 +80,7 @@ export default function Services() {
                             <p className="text-[0.95rem] text-gp-grey leading-relaxed mb-6">
                                 {service.description}
                             </p>
-                            <a href="#contact" className="inline-flex items-center gap-3 font-heading text-[0.65rem] font-bold tracking-[0.2em] uppercase text-gp-black mt-2 transition-all hover:text-primary group/link">
+                            <a href={service.link} className="inline-flex items-center gap-3 font-heading text-[0.65rem] font-bold tracking-[0.2em] uppercase text-gp-black mt-2 transition-all hover:text-primary group/link">
                                 Learn More 
                                 <span className="w-6 h-6 rounded-full bg-gp-bg flex items-center justify-center group-hover/link:bg-primary group-hover/link:text-white transition-colors duration-300">→</span>
                             </a>

@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
+import { Link, useLocation } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+    const { pathname } = useLocation()
 
     // WHATSAPP NUMBER
     const WHATSAPP_URL = "https://wa.me/919901542387"
@@ -19,11 +21,13 @@ export default function Navbar() {
     }, [])
 
     const navLinks = [
-        { name: "Home", href: "#home" },
-        { name: "About", href: "#about" },
-        { name: "Services", href: "#services" },
-        { name: "Work", href: "#work" },
-        { name: "Process", href: "#process" },
+        { name: "Home", href: "/" },
+        { name: "About", href: "/about" },
+        { name: "Reviews", href: "/reviews" },
+        { name: "Services", href: "/#services" },
+        { name: "Work", href: "/#work" },
+        { name: "Process", href: "/#process" },
+        { name: "Students", href: "/students" },
     ]
 
     return (
@@ -39,26 +43,28 @@ export default function Navbar() {
                         }`}
                 >
                     {/* Logo */}
-                    <a href="#home" className="z-50 flex items-center gap-2">
+                    <Link to="/" className="z-50 flex items-center gap-2">
                         <img src="/logo.jpg" alt="Growplus Logo" className="h-9 w-auto object-contain mix-blend-multiply" />
                         <span className="text-xl font-bold font-heading text-gp-black tracking-wide">
                             GROW<span className="text-primary">+</span>
                         </span>
-                    </a>
+                    </Link>
 
                     {/* Desktop Navigation */}
                     <div className="hidden items-center gap-10 md:flex">
                         {navLinks.map((link) => (
-                            <a
+                            <Link
                                 key={link.name}
-                                href={link.href}
-                                className="text-xs font-semibold tracking-[0.14em] uppercase text-gp-grey hover:text-gp-black transition-colors relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[1.5px] after:bg-primary after:transition-all hover:after:w-full"
+                                to={link.href}
+                                className={`text-xs font-semibold tracking-[0.14em] uppercase transition-colors relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:bg-primary after:transition-all hover:after:w-full ${pathname === link.href ? "text-primary after:w-full" : "text-gp-grey hover:text-gp-black after:w-0"}`}
                             >
                                 {link.name}
-                            </a>
+                            </Link>
                         ))}
                         <a 
-                            href="#contact"
+                            href={WHATSAPP_URL}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="text-xs font-semibold tracking-[0.14em] uppercase text-white bg-gp-black hover:bg-primary transition-colors px-6 py-3"
                         >
                             Contact
@@ -87,17 +93,19 @@ export default function Navbar() {
                     >
                         <img src="/logo.jpg" alt="Grow+" className="h-10 w-auto rounded-full shadow-sm mb-4" />
                         {navLinks.map((link) => (
-                            <a
+                            <Link
                                 key={link.name}
-                                href={link.href}
-                                className="text-3xl font-heading font-bold letter-spacing-wide text-gp-black hover:text-primary transition-colors"
+                                to={link.href}
+                                className={`text-3xl font-heading font-bold letter-spacing-wide transition-colors ${pathname === link.href ? "text-primary" : "text-gp-black hover:text-primary"}`}
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 {link.name}
-                            </a>
+                            </Link>
                         ))}
                         <a
-                            href="#contact"
+                            href={WHATSAPP_URL}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="text-3xl font-heading font-bold letter-spacing-wide text-gp-black hover:text-primary transition-colors"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >

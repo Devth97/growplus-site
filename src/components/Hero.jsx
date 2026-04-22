@@ -53,16 +53,21 @@ export default function Hero() {
                         AI Automation Agency
                     </motion.div>
 
-                    <motion.h1
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.4 }}
-                        className="font-heading text-5xl sm:text-7xl md:text-[6.4rem] font-extrabold leading-[0.96] tracking-tight text-gp-black mb-7"
-                    >
-                        AI<br />
-                        <span style={{ WebkitTextStroke: '1.5px var(--black)', color: 'transparent' }}>Automation</span><br />
-                        <span className="text-primary">&amp; Websites.</span>
-                    </motion.h1>
+                    <div className="relative">
+                        {/* Background Glow Hub */}
+                        <div className="absolute -inset-10 md:-inset-20 bg-primary/10 blur-[80px] md:blur-[120px] rounded-full z-[-1] animate-pulse" />
+                        
+                        <motion.h1
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 1, delay: 0.4 }}
+                            className="font-heading text-6xl sm:text-7xl md:text-[7.2rem] font-extrabold leading-[0.92] tracking-tighter text-gp-black mb-8"
+                        >
+                            THE FUTURE<br />
+                            <span style={{ WebkitTextStroke: '1.5px var(--black)', color: 'transparent' }}>OF GROWTH,</span><br />
+                            <span className="text-primary italic">AUTOMATED.</span>
+                        </motion.h1>
+                    </div>
 
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -77,10 +82,16 @@ export default function Hero() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.8 }}
+                        className="flex flex-wrap items-center gap-8"
                     >
-                        <a href="#work" className="inline-flex items-center gap-4 font-heading text-xs font-bold tracking-[0.15em] uppercase text-gp-black hover:gap-6 transition-all group">
-                            View Our Work
-                            <div className="w-12 h-12 border-[1.5px] border-border2 rounded-full flex items-center justify-center text-lg group-hover:bg-primary group-hover:border-primary group-hover:text-white transition-all text-gp-black">
+                        <a href="https://wa.me/919901542387" target="_blank" rel="noopener noreferrer" className="group relative bg-gp-black text-white px-10 py-5 rounded-full overflow-hidden transition-all duration-300 hover:shadow-[0_20px_40px_rgba(0,0,0,0.2)]">
+                            <div className="absolute inset-0 bg-primary translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+                            <span className="relative z-10 font-heading text-[0.74rem] font-bold tracking-[0.18em] uppercase">Claim Free AI Audit</span>
+                        </a>
+
+                        <a href="#work" className="inline-flex items-center gap-4 font-heading text-[0.74rem] font-bold tracking-[0.18em] uppercase text-gp-black hover:gap-6 transition-all group">
+                            View Portfolio
+                            <div className="w-12 h-12 border-[1.5px] border-border2 rounded-full flex items-center justify-center text-lg group-hover:bg-gp-black group-hover:border-gp-black group-hover:text-white transition-all text-gp-black">
                                 <ArrowRight className="w-5 h-5" />
                             </div>
                         </a>

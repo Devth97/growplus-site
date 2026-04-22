@@ -124,25 +124,66 @@
 /* ── WA Float button ─────────────────────────────────────── */
 .wa-float {
   position: fixed;
-  bottom: 28px;
-  right: 28px;
+  bottom: 32px;
+  right: 32px;
   z-index: 500;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  background: #25D366;
+  background: var(--green);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 20px rgba(37,211,102,.35);
-  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 10px 30px rgba(92, 184, 50, 0.4);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .wa-float:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 28px rgba(37,211,102,.55);
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 15px 45px rgba(92, 184, 50, 0.6);
 }
 .wa-float svg {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   fill: #fff;
-}
+}
+/* ── Glow Card Utility ───────────────────────────────────── */
+.gp-glow-card {
+  position: relative;
+  background: white;
+  border: 1.5px solid var(--border);
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.gp-glow-card::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(45deg, transparent, var(--green), transparent);
+  z-index: -1;
+  opacity: 0;
+  border-radius: inherit;
+  transition: opacity 0.5s;
+}
+.gp-glow-card:hover {
+  transform: translateY(-8px);
+  border-color: transparent;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.04), 0 0 20px rgba(92, 184, 50, 0.1);
+}
+.gp-glow-card:hover::before {
+  opacity: 1;
+}
+
+.wa-float::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: var(--green);
+  opacity: 0.3;
+  z-index: -1;
+  animation: waPulse 2s infinite;
+}
+@keyframes waPulse {
+  0% { transform: scale(1); opacity: 0.3; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+

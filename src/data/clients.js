@@ -3,6 +3,217 @@
 
 export const clients = [
     {
+        "id": "paavani",
+        "title": "Paavani Silks",
+        "sector": "jewellery",
+        "category": "Silk & Fashion",
+        "description": "Premium silk and fashion collections.",
+        "location": "Karnataka",
+        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg",
+        "content": [
+            {
+                "id": 1,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851844/growplus/Paavani/videos/Pavani_silks.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 2,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851987/growplus/Paavani/videos/VN20260410_000048.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 3,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852007/growplus/Paavani/Posters/IMG_20260410_001248_768.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 4,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852008/growplus/Paavani/Posters/IMG_20260411_130329_764.jpg",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 5,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852009/growplus/Paavani/Posters/IMG_20260411_130329_990.jpg",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 6,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852010/growplus/Paavani/Posters/IMG_20260411_130330_007.jpg",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 7,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852012/growplus/Paavani/Posters/IMG_20260411_130330_236.jpg",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 8,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852013/growplus/Paavani/Posters/IMG_20260411_130330_255.jpg",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 9,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852014/growplus/Paavani/Posters/IMG_20260411_130330_263.jpg",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 10,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852015/growplus/Paavani/Posters/IMG_20260411_130330_305.jpg",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            },
+            {
+                "id": 11,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852016/growplus/Paavani/Posters/IMG_20260411_130330_439.jpg",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+            }
+        ]
+    },
+    {
+        "id": "sl-shet-jewellers",
+        "title": "SL Shet Jewellers",
+        "sector": "jewellery",
+        "category": "Traditional Jewelry",
+        "description": "Heritage jewelry craftsmanship with timeless designs.",
+        "location": "Karnataka",
+        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851066/growplus/SL%20SHET%20JEWELLERS/thumbnail/thumbnail.png",
+        "content": [
+            {
+                "id": 1,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851105/growplus/SL%20SHET%20JEWELLERS/videos/0418_2.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851066/growplus/SL%20SHET%20JEWELLERS/thumbnail/thumbnail.png"
+            },
+            {
+                "id": 2,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851325/growplus/SL%20SHET%20JEWELLERS/videos/video_260410_080540.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851066/growplus/SL%20SHET%20JEWELLERS/thumbnail/thumbnail.png"
+            }
+        ]
+    },
+    {
+        "id": "sulthan-gold-and-diamonds",
+        "title": "Sulthan Gold & Diamonds",
+        "sector": "jewellery",
+        "category": "Gold & Diamond Jewelry",
+        "description": "Exquisite gold and diamond jewelry collections.",
+        "location": "Karnataka",
+        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851551/growplus/SULTHAN%20GOLD%20AND%20DIAMONDS/thumbnail/thumb.avif",
+        "content": [
+            {
+                "id": 1,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851551/growplus/SULTHAN%20GOLD%20AND%20DIAMONDS/thumbnail/thumb.avif",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851551/growplus/SULTHAN%20GOLD%20AND%20DIAMONDS/thumbnail/thumb.avif"
+            }
+        ]
+    },
+    {
+        "id": "kotharri-jewelz",
+        "title": "Kotharri Jewelz",
+        "sector": "jewellery",
+        "category": "Contemporary Jewelry",
+        "description": "Modern jewelry designs with exquisite craftsmanship.",
+        "location": "Karnataka",
+        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png",
+        "content": [
+            {
+                "id": 1,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776850779/growplus/KOTHARRI%20JEWELZ/videos/VN20260414_214413.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 2,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851063/growplus/KOTHARRI%20JEWELZ/videos/video_260414_133005.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 3,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 4,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850512/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224446_730.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 5,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850523/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224448_830.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 6,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850535/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224450_915.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 7,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850542/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224452_789.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 8,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850553/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224455_904.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 9,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850561/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224456_578.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 10,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850572/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224459_329.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 11,
+                "type": "poster",
+                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850580/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224500_936.png",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            }
+        ]
+    },
+    {
+        "id": "emirates-gold",
+        "title": "Emirates Gold",
+        "sector": "jewellery",
+        "category": "Gold & Luxury Jewelry",
+        "description": "Premium gold and luxury jewelry collections.",
+        "location": "UAE",
+        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850231/growplus/EMIRATES%20GOLD/thumbnail/images.png",
+        "content": [
+            {
+                "id": 1,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776850490/growplus/EMIRATES%20GOLD/videos/video_260414_112058.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850231/growplus/EMIRATES%20GOLD/thumbnail/images.png"
+            }
+        ]
+    },
+    {
         "id": "snow-spoon",
         "title": "Snow Spoon",
         "sector": "food-beverage",
