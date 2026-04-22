@@ -99,6 +99,12 @@ export const clients = [
                 "type": "video",
                 "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851325/growplus/SL%20SHET%20JEWELLERS/videos/video_260410_080540.mp4",
                 "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851066/growplus/SL%20SHET%20JEWELLERS/thumbnail/thumbnail.png"
+            },
+            {
+                "id": 3,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853104/growplus/SL%20SHET%20JEWELLERS/videos/video_260418_110746.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851066/growplus/SL%20SHET%20JEWELLERS/thumbnail/thumbnail.png"
             }
         ]
     },
@@ -113,8 +119,8 @@ export const clients = [
         "content": [
             {
                 "id": 1,
-                "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851551/growplus/SULTHAN%20GOLD%20AND%20DIAMONDS/thumbnail/thumb.avif",
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853118/growplus/SULTHAN%20GOLD%20AND%20DIAMONDS/videos/video_260411_080736.mp4",
                 "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851551/growplus/SULTHAN%20GOLD%20AND%20DIAMONDS/thumbnail/thumb.avif"
             }
         ]
@@ -142,6 +148,18 @@ export const clients = [
             },
             {
                 "id": 3,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853077/growplus/KOTHARRI%20JEWELZ/videos/VN20260413_223415.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 4,
+                "type": "video",
+                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853088/growplus/KOTHARRI%20JEWELZ/videos/VN20260414_220613.mp4",
+                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
+            },
+            {
+                "id": 5,
                 "type": "poster",
                 "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png",
                 "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png"
