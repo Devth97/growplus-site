@@ -1,8 +1,6 @@
 import { Routes, Route } from "react-router-dom"
-import { useState } from "react"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
-import IntroSplash from "@/components/IntroSplash"
 
 // Pages
 import Home from "@/pages/Home"
@@ -15,15 +13,9 @@ import Students from "@/pages/Students"
 
 export default function App() {
     const WHATSAPP_URL = "https://wa.me/919901542387"
-    
-    // Bypass intro strictly if ReactSnap is compiling the site, otherwise hydration freezes the video
-    const isReactSnap = typeof navigator !== 'undefined' && navigator.userAgent.includes('ReactSnap');
-    const [introFinished, setIntroFinished] = useState(isReactSnap);
-    
-    return (
-        <div className={`bg-background text-foreground min-h-screen font-body selection:bg-primary selection:text-white ${!introFinished ? 'h-screen overflow-hidden pb-0' : ''}`}>
-            {!introFinished && <IntroSplash onFinish={() => setIntroFinished(true)} />}
 
+    return (
+        <div className="bg-background text-foreground min-h-screen font-body selection:bg-primary selection:text-white">
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
