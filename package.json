@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "react-snap && node -e \"const fs=require('fs');['EMIRATES GOLD','KOTHARRI JEWELZ','SL SHET JEWELLERS','SULTHAN GOLD AND DIAMONDS','Paavani','Muliya Jewllers/videos','Nishma Delights Cafe/videos','Popular Nutritions/videos','snow-spoon/videos','ss-masala/videos','naturya/videos','skyline-estates/videos','royal-residency/videos','urban-heights/videos','golden-ornaments/videos','diamond-dreams/videos','silver-craft/videos','Cream city/videos'].forEach(d=>{const p='dist/'+d;try{fs.rmSync(p,{recursive:true,force:true});console.log('Cleaned: '+p);}catch(e){}});\"",
+    "postbuild": "node scripts/clean-dist-media.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "scan-clients": "node scripts/scan-clients.js"
