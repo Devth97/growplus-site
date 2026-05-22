@@ -1,8 +1,15 @@
-const LOCAL_MEDIA_VERSION = "20260522-restore";
-
 export function mediaUrl(src) {
-    if (!src || !src.startsWith("/")) return src;
+    if (!src) return src;
 
-    const separator = src.includes("?") ? "&" : "?";
-    return `${src}${separator}v=${LOCAL_MEDIA_VERSION}`;
+    const baseUrl = (import.meta.env.VITE_MEDIA_BASE_URL || "https://media.growplus.site").replace(/\/$/, "");
+
+    if (src.startsWith("/")) {
+        return `${baseUrl}${encodeURI(src)}`;
+    }
+
+    if (!/^https?:\/\//.test(src)) {
+        return `${baseUrl}/${encodeURI(src)}`;
+    }
+
+    return src;
 }

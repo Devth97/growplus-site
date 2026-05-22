@@ -49,7 +49,7 @@ function VideoCard({ content, isPlaying, onPlay, onPause }) {
 
                 <video
                     ref={videoRef}
-                    src={content.src}
+                    src={mediaUrl(content.src)}
                     className={`w-full h-full object-cover ${isPlaying ? 'block' : 'hidden'}`}
                     playsInline
                     loop

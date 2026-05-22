@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useRef, useEffect } from 'react';
+import { mediaUrl } from "@/utils/media";
 
 export default function IntroSplash({ onFinish }) {
     const [isVisible, setIsVisible] = useState(true);
@@ -39,7 +40,7 @@ export default function IntroSplash({ onFinish }) {
                         playsInline
                         onEnded={handleFinish}
                         className="w-full h-full object-contain"
-                        src="https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/growplus/intro_video.mp4"
+                        src={mediaUrl("growplus/intro_video.mp4")}
                     />
                     
                     {/* Skip Button */}

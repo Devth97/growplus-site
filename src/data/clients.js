@@ -9,73 +9,73 @@ export const clients = [
         "category": "Silk & Fashion",
         "description": "Premium silk and fashion collections.",
         "location": "Karnataka",
-        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg",
+        "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg",
         "content": [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851844/growplus/Paavani/videos/Pavani_silks.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/videos/Pavani_silks.mp4",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851987/growplus/Paavani/videos/VN20260410_000048.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/videos/VN20260410_000048.mp4",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 3,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852007/growplus/Paavani/Posters/IMG_20260410_001248_768.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/Posters/IMG_20260410_001248_768.png",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 4,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852008/growplus/Paavani/Posters/IMG_20260411_130329_764.jpg",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/Posters/IMG_20260411_130329_764.jpg",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 5,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852009/growplus/Paavani/Posters/IMG_20260411_130329_990.jpg",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/Posters/IMG_20260411_130329_990.jpg",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 6,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852010/growplus/Paavani/Posters/IMG_20260411_130330_007.jpg",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/Posters/IMG_20260411_130330_007.jpg",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 7,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852012/growplus/Paavani/Posters/IMG_20260411_130330_236.jpg",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/Posters/IMG_20260411_130330_236.jpg",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 8,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852013/growplus/Paavani/Posters/IMG_20260411_130330_255.jpg",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/Posters/IMG_20260411_130330_255.jpg",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 9,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852014/growplus/Paavani/Posters/IMG_20260411_130330_263.jpg",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/Posters/IMG_20260411_130330_263.jpg",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 10,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852015/growplus/Paavani/Posters/IMG_20260411_130330_305.jpg",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/Posters/IMG_20260411_130330_305.jpg",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             },
             {
                 "id": 11,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776852016/growplus/Paavani/Posters/IMG_20260411_130330_439.jpg",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851737/growplus/Paavani/thumbnail/thumb.jpg"
+                "src": "growplus/Paavani/Posters/IMG_20260411_130330_439.jpg",
+                "thumbnail": "growplus/Paavani/thumbnail/thumb.jpg"
             }
         ]
     },
@@ -86,25 +86,25 @@ export const clients = [
         "category": "Traditional Jewelry",
         "description": "Heritage jewelry craftsmanship with timeless designs.",
         "location": "Karnataka",
-        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851066/growplus/SL%20SHET%20JEWELLERS/thumbnail/thumbnail.png",
+        "thumbnail": "growplus/SL SHET JEWELLERS/thumbnail/thumbnail.png",
         "content": [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851105/growplus/SL%20SHET%20JEWELLERS/videos/0418_2.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851066/growplus/SL%20SHET%20JEWELLERS/thumbnail/thumbnail.png"
+                "src": "growplus/SL SHET JEWELLERS/videos/0418_2.mp4",
+                "thumbnail": "growplus/SL SHET JEWELLERS/thumbnail/thumbnail.png"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851325/growplus/SL%20SHET%20JEWELLERS/videos/video_260410_080540.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851066/growplus/SL%20SHET%20JEWELLERS/thumbnail/thumbnail.png"
+                "src": "growplus/SL SHET JEWELLERS/videos/video_260410_080540.mp4",
+                "thumbnail": "growplus/SL SHET JEWELLERS/thumbnail/thumbnail.png"
             },
             {
                 "id": 3,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853104/growplus/SL%20SHET%20JEWELLERS/videos/video_260418_110746.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851066/growplus/SL%20SHET%20JEWELLERS/thumbnail/thumbnail.png"
+                "src": "growplus/SL SHET JEWELLERS/videos/video_260418_110746.mp4",
+                "thumbnail": "growplus/SL SHET JEWELLERS/thumbnail/thumbnail.png"
             }
         ]
     },
@@ -115,13 +115,13 @@ export const clients = [
         "category": "Gold & Diamond Jewelry",
         "description": "Exquisite gold and diamond jewelry collections.",
         "location": "Karnataka",
-        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851551/growplus/SULTHAN%20GOLD%20AND%20DIAMONDS/thumbnail/thumb.avif",
+        "thumbnail": "growplus/SULTHAN GOLD AND DIAMONDS/thumbnail/thumb.avif",
         "content": [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853118/growplus/SULTHAN%20GOLD%20AND%20DIAMONDS/videos/video_260411_080736.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776851551/growplus/SULTHAN%20GOLD%20AND%20DIAMONDS/thumbnail/thumb.avif"
+                "src": "growplus/SULTHAN GOLD AND DIAMONDS/videos/video_260411_080736.mp4",
+                "thumbnail": "growplus/SULTHAN GOLD AND DIAMONDS/thumbnail/thumb.avif"
             }
         ]
     },
@@ -132,85 +132,85 @@ export const clients = [
         "category": "Contemporary Jewelry",
         "description": "Modern jewelry designs with exquisite craftsmanship.",
         "location": "Karnataka",
-        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg",
+        "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg",
         "content": [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776850779/growplus/KOTHARRI%20JEWELZ/videos/VN20260414_214413.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/videos/VN20260414_214413.mp4",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776851063/growplus/KOTHARRI%20JEWELZ/videos/video_260414_133005.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/videos/video_260414_133005.mp4",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 3,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853077/growplus/KOTHARRI%20JEWELZ/videos/VN20260413_223415.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/videos/VN20260413_223415.mp4",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 4,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776853088/growplus/KOTHARRI%20JEWELZ/videos/VN20260414_220613.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/videos/VN20260414_220613.mp4",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 5,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850503/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224416_227.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/photos/IMG_20260413_224416_227.png",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 4,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850512/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224446_730.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/photos/IMG_20260413_224446_730.png",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 5,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850523/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224448_830.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/photos/IMG_20260413_224448_830.png",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 6,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850535/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224450_915.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/photos/IMG_20260413_224450_915.png",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 7,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850542/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224452_789.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/photos/IMG_20260413_224452_789.png",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 8,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850553/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224455_904.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/photos/IMG_20260413_224455_904.png",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 9,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850561/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224456_578.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/photos/IMG_20260413_224456_578.png",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 10,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850572/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224459_329.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/photos/IMG_20260413_224459_329.png",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             },
             {
                 "id": 11,
                 "type": "poster",
-                "src": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850580/growplus/KOTHARRI%20JEWELZ/photos/IMG_20260413_224500_936.png",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776855980/growplus/KOTHARRI%20JEWELZ/thumbnail/thumb.jpg"
+                "src": "growplus/KOTHARRI JEWELZ/photos/IMG_20260413_224500_936.png",
+                "thumbnail": "growplus/KOTHARRI JEWELZ/thumbnail/thumb.jpg"
             }
         ]
     },
@@ -221,13 +221,13 @@ export const clients = [
         "category": "Gold & Luxury Jewelry",
         "description": "Premium gold and luxury jewelry collections.",
         "location": "UAE",
-        "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850231/growplus/EMIRATES%20GOLD/thumbnail/images.png",
+        "thumbnail": "growplus/EMIRATES GOLD/thumbnail/images.png",
         "content": [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1776850490/growplus/EMIRATES%20GOLD/videos/video_260414_112058.mp4",
-                "thumbnail": "https://res.cloudinary.com/daqrgnykj/image/upload/f_auto,q_auto/v1776850231/growplus/EMIRATES%20GOLD/thumbnail/images.png"
+                "src": "growplus/EMIRATES GOLD/videos/video_260414_112058.mp4",
+                "thumbnail": "growplus/EMIRATES GOLD/thumbnail/images.png"
             }
         ]
     },
@@ -243,43 +243,43 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161438/growplus/snow-spoon/videos/lassi.mp4",
+                "src": "growplus/snow-spoon/videos/lassi.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161442/growplus/snow-spoon/videos/video_2026-01-26_21-52-16.mp4",
+                "src": "growplus/snow-spoon/videos/video_2026-01-26_21-52-16.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 3,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161452/growplus/snow-spoon/videos/video_2026-01-26_21-52-22.mp4",
+                "src": "growplus/snow-spoon/videos/video_2026-01-26_21-52-22.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 4,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161456/growplus/snow-spoon/videos/video_2026-01-26_21-52-24.mp4",
+                "src": "growplus/snow-spoon/videos/video_2026-01-26_21-52-24.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 5,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161460/growplus/snow-spoon/videos/video_2026-01-26_21-52-27.mp4",
+                "src": "growplus/snow-spoon/videos/video_2026-01-26_21-52-27.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 6,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161464/growplus/snow-spoon/videos/video_2026-01-26_21-52-29.mp4",
+                "src": "growplus/snow-spoon/videos/video_2026-01-26_21-52-29.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
                 "id": 7,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161467/growplus/snow-spoon/videos/video_2026-01-26_21-52-31.mp4",
+                "src": "growplus/snow-spoon/videos/video_2026-01-26_21-52-31.mp4",
                 "thumbnail": "/snow-spoon/thumbnails/snowspoon.jpg"
             },
             {
@@ -308,7 +308,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161488/growplus/ss-masala/videos/video_2026-01-20_11-55-51.mp4",
+                "src": "growplus/ss-masala/videos/video_2026-01-20_11-55-51.mp4",
                 "thumbnail": "/ss-masala/thumbnails/ssmasala.jpg"
             }
         ]
@@ -325,7 +325,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161150/growplus/naturya/videos/VID-20260117-WA0016.mp4",
+                "src": "growplus/naturya/videos/VID-20260117-WA0016.mp4",
                 "thumbnail": "/naturya/thumbnails/naturya.jpg"
             }
         ]
@@ -342,7 +342,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161436/growplus/skyline-estates/videos/skylinevd1.mp4",
+                "src": "growplus/skyline-estates/videos/skylinevd1.mp4",
                 "thumbnail": "/skyline-estates/thumbnails/skyline.jpg"
             }
         ]
@@ -359,7 +359,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161430/growplus/royal-residency/videos/royalvd1.mp4",
+                "src": "growplus/royal-residency/videos/royalvd1.mp4",
                 "thumbnail": "/royal-residency/thumbnails/royal.jpg"
             }
         ]
@@ -376,7 +376,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161492/growplus/urban-heights/videos/urbanvd1.mp4",
+                "src": "growplus/urban-heights/videos/urbanvd1.mp4",
                 "thumbnail": "/urban-heights/thumbnails/urban.jpg"
             }
         ]
@@ -393,7 +393,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161127/growplus/golden-ornaments/videos/goldenvd1.mp4",
+                "src": "growplus/golden-ornaments/videos/goldenvd1.mp4",
                 "thumbnail": "/golden-ornaments/thumbnails/golden.jpg"
             },
             {
@@ -434,13 +434,13 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161120/growplus/diamond-dreams/videos/diamondvd1.mp4",
+                "src": "growplus/diamond-dreams/videos/diamondvd1.mp4",
                 "thumbnail": "/diamond-dreams/thumbnails/diamond.jpg"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161124/growplus/diamond-dreams/videos/diamondvd2.mp4",
+                "src": "growplus/diamond-dreams/videos/diamondvd2.mp4",
                 "thumbnail": "/diamond-dreams/thumbnails/diamond.jpg"
             },
             {
@@ -481,7 +481,7 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161433/growplus/silver-craft/videos/silvervd1.mp4",
+                "src": "growplus/silver-craft/videos/silvervd1.mp4",
                 "thumbnail": "/silver-craft/thumbnails/silver.jpg"
             },
             {
@@ -540,25 +540,25 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161003/growplus/Cream%20city/videos/video_2026-03-13_11-42-46.mp4",
+                "src": "growplus/Cream city/videos/video_2026-03-13_11-42-46.mp4",
                 "thumbnail": "/Cream city/thumbnails/thumbnail.png"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161037/growplus/Cream%20city/videos/video_2026-03-13_11-42-48.mp4",
+                "src": "growplus/Cream city/videos/video_2026-03-13_11-42-48.mp4",
                 "thumbnail": "/Cream city/thumbnails/thumbnail.png"
             },
             {
                 "id": 3,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161102/growplus/Cream%20city/videos/video_2026-03-13_11-42-50.mp4",
+                "src": "growplus/Cream city/videos/video_2026-03-13_11-42-50.mp4",
                 "thumbnail": "/Cream city/thumbnails/thumbnail.png"
             },
             {
                 "id": 4,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161117/growplus/Cream%20city/videos/video_2026-03-13_11-45-07.mp4",
+                "src": "growplus/Cream city/videos/video_2026-03-13_11-45-07.mp4",
                 "thumbnail": "/Cream city/thumbnails/thumbnail.png"
             },
             {
@@ -593,25 +593,25 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161137/growplus/Muliya%20Jewllers/videos/778cb2c3-b518-4cb1-86fd-4469b6c520ac%20%281%29.mp4",
+                "src": "growplus/Muliya Jewllers/videos/778cb2c3-b518-4cb1-86fd-4469b6c520ac (1).mp4",
                 "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161144/growplus/Muliya%20Jewllers/videos/Luxury_Jewelry_Showcase_Video_Generation.mp4",
+                "src": "growplus/Muliya Jewllers/videos/Luxury_Jewelry_Showcase_Video_Generation.mp4",
                 "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
             },
             {
                 "id": 3,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161141/growplus/Muliya%20Jewllers/videos/freepik_create-a-luxury-jewelry-product-video-starting-wit_kling_720p_9-16_24fps_29317.mp4",
+                "src": "growplus/Muliya Jewllers/videos/freepik_create-a-luxury-jewelry-product-video-starting-wit_kling_720p_9-16_24fps_29317.mp4",
                 "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
             },
             {
                 "id": 4,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161145/growplus/Muliya%20Jewllers/videos/video_2026-03-13_11-03-27.mp4",
+                "src": "growplus/Muliya Jewllers/videos/video_2026-03-13_11-03-27.mp4",
                 "thumbnail": "/Muliya Jewllers/thumbnails/thumbnail.png"
             },
             {
@@ -658,25 +658,19 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161158/growplus/Nishma%20Delights%20Cafe/videos/video_2026-03-13_11-32-40.mp4",
+                "src": "growplus/Nishma Delights Cafe/videos/video_2026-03-13_11-32-40.mp4",
                 "thumbnail": "/Nishma Delights Cafe/thumbnails/thumbnail.png"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161189/growplus/Nishma%20Delights%20Cafe/videos/video_2026-03-13_11-32-42.mp4",
+                "src": "growplus/Nishma Delights Cafe/videos/video_2026-03-13_11-32-42.mp4",
                 "thumbnail": "/Nishma Delights Cafe/thumbnails/thumbnail.png"
             },
             {
                 "id": 3,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161219/growplus/Nishma%20Delights%20Cafe/videos/video_2026-03-13_11-32-51.mp4",
-                "thumbnail": "/Nishma Delights Cafe/thumbnails/thumbnail.png"
-            },
-            {
-                "id": 4,
-                "type": "video",
-                "src": "/Nishma Delights Cafe/videos/video_2026-03-13_11-32-53.mp4",
+                "src": "growplus/Nishma Delights Cafe/videos/video_2026-03-13_11-32-51.mp4",
                 "thumbnail": "/Nishma Delights Cafe/thumbnails/thumbnail.png"
             }
         ]
@@ -693,31 +687,31 @@ export const clients = [
             {
                 "id": 1,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161331/growplus/Popular%20Nutritions/videos/Popular%20Masala%20chips%20e.mp4",
+                "src": "growplus/Popular Nutritions/videos/Popular Masala chips e.mp4",
                 "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
             },
             {
                 "id": 2,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161306/growplus/Popular%20Nutritions/videos/Popular%20chips%203%20flavour%20k.mp4",
+                "src": "growplus/Popular Nutritions/videos/Popular chips 3 flavour k.mp4",
                 "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
             },
             {
                 "id": 3,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161363/growplus/Popular%20Nutritions/videos/Popular%20tomato%20chips%20e.mp4",
+                "src": "growplus/Popular Nutritions/videos/Popular tomato chips e.mp4",
                 "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
             },
             {
                 "id": 4,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161395/growplus/Popular%20Nutritions/videos/video_2026-03-13_09-52-00.mp4",
+                "src": "growplus/Popular Nutritions/videos/video_2026-03-13_09-52-00.mp4",
                 "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
             },
             {
                 "id": 5,
                 "type": "video",
-                "src": "https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161427/growplus/Popular%20Nutritions/videos/video_2026-03-13_10-31-53.mp4",
+                "src": "growplus/Popular Nutritions/videos/video_2026-03-13_10-31-53.mp4",
                 "thumbnail": "/Popular Nutritions/thumbnails/thumbnail.jpg"
             }
         ]
