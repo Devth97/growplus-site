@@ -16,9 +16,11 @@ export default function IntroSplash({ onFinish }) {
     // If video fails to autoplay (e.g. browser policy or low power mode blocking video)
     useEffect(() => {
         const timeout = setTimeout(() => {
-            handleFinish();
-        }, 3500);
-
+            if (videoRef.current && videoRef.current.paused) {
+                // Autoplay blocked, bypass intro
+                handleFinish();
+            }
+        }, 3000);
         return () => clearTimeout(timeout);
     }, []);
 
@@ -37,7 +39,6 @@ export default function IntroSplash({ onFinish }) {
                         muted
                         playsInline
                         onEnded={handleFinish}
-                        onError={handleFinish}
                         className="w-full h-full object-contain"
                         src={mediaUrl("growplus/intro_video.mp4")}
                     />
