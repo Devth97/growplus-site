@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 import { useState, useEffect } from "react"
+import { mediaUrl } from "../lib/media"
 
 export default function Hero() {
     return (
@@ -35,7 +36,7 @@ export default function Hero() {
                             playsInline
                             className="h-full w-full object-cover"
                         >
-                            <source src="https://res.cloudinary.com/daqrgnykj/video/upload/f_auto,q_auto/v1774161133/growplus/hero.mp4" type="video/mp4" />
+                            <source src={mediaUrl("growplus/hero.mp4")} type="video/mp4" />
                         </video>
                     </motion.div>
                     {/* Light Fade Gradient overlay on video */}
