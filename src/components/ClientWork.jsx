@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { X, Play, Download, Image as ImageIcon } from "lucide-react"
 import { useState, useRef } from "react"
 import { sectors } from "@/data/clients"
+import { mediaUrl } from "@/utils/media"
 
 // Video Card Component
 function VideoCard({ content, isPlaying, onPlay, onPause }) {
@@ -34,7 +35,7 @@ function VideoCard({ content, isPlaying, onPlay, onPause }) {
                 {!isPlaying && (
                     <>
                         <img
-                            src={content.thumbnail}
+                            src={mediaUrl(content.thumbnail)}
                             alt="Video thumbnail"
                             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                         />
@@ -80,7 +81,7 @@ function PosterCard({ content }) {
                     onClick={() => setIsExpanded(true)}
                 >
                     <img
-                        src={content.src}
+                        src={mediaUrl(content.src)}
                         alt="Poster"
                         className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700"
                     />
@@ -116,7 +117,7 @@ function PosterCard({ content }) {
                                 <X className="w-8 h-8" />
                             </button>
                             <img
-                                src={content.src}
+                                src={mediaUrl(content.src)}
                                 alt="Poster full view"
                                 className="max-w-full max-h-[85vh] object-contain shadow-2xl"
                             />

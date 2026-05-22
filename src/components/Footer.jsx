@@ -1,3 +1,5 @@
+import { mediaUrl } from "@/utils/media"
+
 export default function Footer() {
     return (
         <footer className="bg-gp-bg border-t border-border2 py-12 md:py-16">
@@ -6,7 +8,7 @@ export default function Footer() {
                     {/* Brand Section */}
                     <div className="col-span-1 md:col-span-1">
                         <div className="flex items-center gap-2 mb-6">
-                            <img src="/logo.jpg" alt="Growplus" className="h-[30px] w-auto object-contain rounded-full shadow-sm" />
+                            <img src={mediaUrl("/logo.jpg")} alt="Growplus" className="h-[30px] w-auto object-contain rounded-full shadow-sm" />
                             <span className="font-heading text-xl font-bold text-gp-black tracking-wide">
                                 GROW<span className="text-primary">+</span>
                             </span>

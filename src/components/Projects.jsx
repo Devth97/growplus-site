@@ -3,6 +3,7 @@ import { clients, sectors } from "@/data/clients"
 import { useState } from "react"
 import ClientWork from "@/components/ClientWork"
 import { Plus } from "lucide-react"
+import { mediaUrl } from "@/utils/media"
 
 const filters = [
     { id: "all", label: "All Work" },
@@ -67,7 +68,7 @@ export default function Projects() {
                             >
                                 <div className="relative overflow-hidden w-full aspect-[3/4] md:aspect-[4/5] bg-gp-bg2 mb-6 shadow-sm group-hover:shadow-xl transition-all duration-700">
                                     <img
-                                        src={client.thumbnail}
+                                        src={mediaUrl(client.thumbnail)}
                                         alt={client.title}
                                         className="w-full h-full object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.2,1,0.2,1)] group-hover:scale-110"
                                     />

@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Link, useLocation } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import { mediaUrl } from "@/utils/media"
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false)
@@ -44,7 +45,7 @@ export default function Navbar() {
                 >
                     {/* Logo */}
                     <Link to="/" className="z-50 flex items-center gap-2">
-                        <img src="/logo.jpg" alt="Growplus Logo" className="h-9 w-auto object-contain mix-blend-multiply" />
+                        <img src={mediaUrl("/logo.jpg")} alt="Growplus Logo" className="h-9 w-auto object-contain mix-blend-multiply" />
                         <span className="text-xl font-bold font-heading text-gp-black tracking-wide">
                             GROW<span className="text-primary">+</span>
                         </span>
@@ -91,7 +92,7 @@ export default function Navbar() {
                         transition={{ duration: 0.3 }}
                         className="fixed inset-0 z-40 bg-gp-bg flex flex-col items-center justify-center gap-8 md:hidden"
                     >
-                        <img src="/logo.jpg" alt="Grow+" className="h-10 w-auto rounded-full shadow-sm mb-4" />
+                        <img src={mediaUrl("/logo.jpg")} alt="Grow+" className="h-10 w-auto rounded-full shadow-sm mb-4" />
                         {navLinks.map((link) => (
                             <Link
                                 key={link.name}
