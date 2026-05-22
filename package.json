@@ -9,8 +9,7 @@
     "postbuild": "react-snap && node -e \"const fs=require('fs');['EMIRATES GOLD','KOTHARRI JEWELZ','SL SHET JEWELLERS','SULTHAN GOLD AND DIAMONDS','Paavani','Muliya Jewllers/videos','Nishma Delights Cafe/videos','Popular Nutritions/videos','snow-spoon/videos','ss-masala/videos','naturya/videos','skyline-estates/videos','royal-residency/videos','urban-heights/videos','golden-ornaments/videos','diamond-dreams/videos','silver-craft/videos','Cream city/videos'].forEach(d=>{const p='dist/'+d;try{fs.rmSync(p,{recursive:true,force:true});console.log('Cleaned: '+p);}catch(e){}});\"",
     "lint": "eslint .",
     "preview": "vite preview",
-    "scan-clients": "node scripts/scan-clients.js",
-    "migrate:r2": "node scripts/migrate-cloudinary-to-r2.js"
+    "scan-clients": "node scripts/scan-clients.js"
   },
   "reactSnap": {
     "source": "dist",
@@ -22,8 +21,8 @@
     ]
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.1052.0",
     "class-variance-authority": "^0.7.0",
+    "cloudinary": "^2.9.0",
     "clsx": "^2.1.0",
     "docx": "^9.6.1",
     "framer-motion": "^11.0.8",
